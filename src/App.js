@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import s from './App.module.css'
+import React from "react";
+import Player from "./Components/Player/Player";
+import Background from "./Components/Background/Background";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return <div className={s.wrap}>
+    <Background/>
+    <Player/>
+    <a className={s.link}
+       href={'https://t.me/DUMER'}
+       target={'_blank'} rel={'noreferrer'}>При поддержке t.me/dumer
+    </a>
+  </div>
 }
 
 export default App;

@@ -1,13 +1,30 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: gainsboro;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: gainsboro;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tippy {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(50, 50, 50, 0.8);
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  src: url("./Fonts/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Light.ttf") format("opentype");
 }
